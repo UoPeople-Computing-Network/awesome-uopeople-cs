@@ -4,29 +4,44 @@
 # Graph
 ```mermaid
 graph TD
-    A[UNIV 1001: Online Education Strategies] --> B[CS 1101: Programming Fundamentals with Python]
-    C --> C[CS 1102: Programming 1]
-    C --> D[CS 1103: Programming 2]
-    D --> E[CS 3305: Data Structures]
+    %% === Course Nodes ===
+    A[UNIV 1001: Online Education Strategies]
+    B[CS 1101: Programming Fundamentals]
+    C[CS 1102: Programming 1]
+    D[CS 1103: Programming 2]
+    E[CS 3305: Data Structures]
+    F[CS 2203: Data Science]
+    G[CS 3303: Machine Learning]
+    H[MATH 1201: College Algebra]
+    I[CS 1121: Discrete Mathematics]
+    J[CS 2205: Computer Architecture]
+    K[CS 2401: Databases 1]
+    L[CS 3307: Databases 2]
+    M[CS 2301: Operating Systems]
+    N[CS 4406: Software Engineering]
+    O[CS 4999: Capstone Project]
 
-    B --> F[CS 2203: Data Science]
-    F --> G[CS 3303: Machine Learning]
-
-    A --> H[MATH 1201: College Algebra]
-    H --> I[CS 1121: Discrete Mathematics]
-    I --> J[CS 2205: Computer Architecture]
-
-    E --> K[CS 2401: Databases 1]
-    K --> L[CS 3307: Databases 2]
-
-    J --> M[CS 2301: Operating Systems]
+    %% === Relationships ===
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    B --> F
+    F --> G
+    A --> H
+    H --> I
+    I --> J
+    E --> K
+    K --> L
+    J --> M
     E --> M
-
-    M --> N[CS 4406: Software Engineering]
+    M --> N
     E --> N
+    N --> O
 
-    N --> O[CS 4999: Capstone Project]
-
-    classDef core fill:#f9f,stroke:#333,stroke-width:1px;
-    class B,C,D,E,H,I,J,M,N,O core
+    %% === Styling ===
+    classDef cs fill:#dbeeff,stroke:#2a65a6,stroke-width:1px;
+    classDef math fill:#f9f9f9,stroke:#666,stroke-width:1px;
+    class B,C,D,E,F,G,I,J,K,L,M,N,O cs;
+    class H math;
 ```
