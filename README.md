@@ -4,7 +4,7 @@
 # Graph
 ```mermaid
 graph TD
-    A[UNIV 1001: Online Education Strategies] --> B[CS 1101: Programming Fundamentals]
+    A[UNIV 1001: Online Education Strategies] --> B[CS 1101: Programming Fundamentals with Python]
     B --> C[CS 1102: Programming 1]
     C --> D[CS 1103: Programming 2]
     D --> E[CS 3305: Data Structures]
