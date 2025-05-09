@@ -14,6 +14,6 @@ graph TD
     A --> K[Simple Projects<br/>& Practice]
 
     %% Styling (optional)
-    classDef topic fill:#e8f4ff,stroke:#007acc,stroke-width:1px;
+    classDef topic fill:#161616,stroke:#007acc,stroke-width:1px;
     class B,C,D,E,F,G,H,I,J,K topic;
 ```
