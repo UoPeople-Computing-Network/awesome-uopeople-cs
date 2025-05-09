@@ -41,7 +41,7 @@ graph TD
 
     %% === Styling ===
     classDef cs fill:#161616,stroke:#2a65a6,stroke-width:1px;
-    classDef math fill:#f9f9f9,stroke:#666,stroke-width:1px;
+    classDef math fill:#404040,stroke:#666,stroke-width:1px;
     class B,C,D,E,F,G,I,J,K,L,M,N,O cs;
     class H math;
 ```
