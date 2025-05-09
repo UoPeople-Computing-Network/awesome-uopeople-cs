@@ -48,5 +48,9 @@ graph TD
 
     class A,B,C,D,E,H,I,J,K,L,M,N,O required;
     class F,G elective;
+
+    %% Add clickable links
+    click B "cs_1101_programming_fundamentals.md" "Open CS1101"
+    click C "https://github.com/yourusername/uopeople-cs/blob/main/courses/cs1102.md" "Open CS1102"
 ```
 
